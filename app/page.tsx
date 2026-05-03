@@ -19,7 +19,7 @@ function Portfolio() {
   const [form, setForm] = useState<Record<string, string>>({
     name: '',
     email: '',
-    interest: 'Performance Audit',
+    interest: 'Frontend Architecture',
     message: '',
   });
   const [sent, setSent] = useState(false);
@@ -311,7 +311,7 @@ function Portfolio() {
                 onClick={() => scrollTo('contact')}
                 className="btn btn-primary"
               >
-                Let's Talk Performance
+                Let&apos;s Talk Performance
               </button>
               <button
                 onClick={() => scrollTo('projects')}
@@ -485,9 +485,9 @@ function Portfolio() {
                   fontSize: 16,
                 }}
               >
-                Great code doesn't just work; it performs. Over the last four
-                years, I have evolved into a Lead Frontend Developer by treating
-                UI performance as a core business metric.
+                Great code doesn&apos;t just work; it performs. Over the last
+                four years, I have evolved into a Lead Frontend Developer by
+                treating UI performance as a core business metric.
               </p>
               <p style={{ color: '#94A3B8', lineHeight: 1.8, fontSize: 16 }}>
                 My expertise lies at the intersection of complex frontend
@@ -1311,7 +1311,8 @@ function Portfolio() {
                     Transmission Sent!
                   </h3>
                   <p style={{ color: '#94A3B8' }}>
-                    Your email client should open. I'll get back to you soon.
+                    Your email client should open. I&apos;ll get back to you
+                    soon.
                   </p>
                 </div>
               ) : (
@@ -1394,8 +1395,8 @@ function Portfolio() {
                       }}
                     >
                       {[
-                        'Performance Audit',
                         'Frontend Architecture',
+                        'Performance Audit',
                         'Technical SEO Strategy',
                         'Other',
                       ].map((o) => (
